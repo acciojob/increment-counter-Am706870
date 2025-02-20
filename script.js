@@ -1,9 +1,13 @@
 //your JS code here. If required.
-let counter = 0;
-function incrementCounter(){
-	alert("Current counter value:", +counter);
 
-	counter++;
-	var val = document.getElementByID("counter");
-	val.innerText = counter;
+function incrementCounter() {
+	let counter = 0;
+            // Show alert with the current value
+	alert("Current counter value: " +counter);
+            
+            // Increment the counter
+    counter++;
+
+            // Update the counter paragraph
+    document.getElementById("counter").innerText = counter;
 }
