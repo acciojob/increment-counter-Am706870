@@ -4,5 +4,6 @@ function incrementCounter(){
 	alert("Current counter value:", +counter);
 
 	counter++;
-	document.getElementByID("counter").innerText = counter;
+	var val = document.getElementByID("counter");
+	val.innerText = counter;
 }
