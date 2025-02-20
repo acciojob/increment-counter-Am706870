@@ -1,9 +1,9 @@
-//your JS code here. If required.
+let counter = 0;
 
+        // Function to increment counter and show alert
 function incrementCounter() {
-	let counter = 0;
             // Show alert with the current value
-	alert("Current counter value: " +counter);
+	alert("Current counter value: " + counter);
             
             // Increment the counter
     counter++;
